@@ -51,7 +51,7 @@ const App = () => {
                 return(
                   <div className='each_iteam' key={index}>
                     <span>{elem}</span>
-                    <i className="fa fa-trash" aria-hidden="true" onClick={() => deleteiteam(index) }title="Delete"></i>
+                    <i className="fa fa-trash" aria-hidden="true" onClick={() => deleteiteam(index) } title="Delete"></i>
                 </div>
                 );
               })}
